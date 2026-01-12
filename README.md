@@ -20,7 +20,7 @@ This project combines **FastAPI**, **LangChain**, and **Ollama LLM** to create a
 - Python 3.9 or 3.10  
 - Install dependencies:  
 ```bash
-pip install fastapi uvicorn langchain-ollama
+pip install fastapi langchain langchain_ollama langchain_core langchain_community
 ```
 - Run locally:  
 ```bash
