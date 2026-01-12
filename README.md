@@ -1,8 +1,24 @@
-🚀 AI Q&A API with FastAPI & Ollama
-A lightweight FastAPI application that leverages LangChain and Ollama LLM to answer questions, maintain conversational memory, and suggest topics dynamically. Perfect for building AI assistants or chatbots with context-aware conversations.
-✨ Features
-💬 Contextual Conversations: Each session has its own conversation memory.
-🧠 Topic Guidance: Optional predefined topics that the user can explore.
-⚡ Fast & Async: Built on FastAPI for high-performance async API calls.
-🔄 Session Management: Supports multiple users with unique session IDs.
-🛠️ Easy Customization: Add/remove topics anytime or tweak prompts.
+# 🚀 AI Q&A API with FastAPI & Ollama
+
+Here’s my **first attempt at building an AI chatbot**! 🤖  
+This project combines **FastAPI**, **LangChain**, and **Ollama LLM** to create a **context-aware Q&A API** — basically a mini AI assistant you can chat with.  
+
+---
+
+## 💡 Concepts Learned
+
+- 🧠 Creating a chatbot using `OllamaLLM`  
+- 🔗 Using **LangChain** to manage memory and interactive conversation  
+- 💻 Generating an API with **FastAPI** and **Uvicorn**  
+- 📝 Maintaining conversation memory with `ChatMessageHistory`  
+
+---
+
+## ⚡ Getting Started
+
+**Requirements:**  
+- Python 3.9 or 3.10  
+- Install dependencies:  
+```bash
+pip install fastapi uvicorn langchain-ollama
+
