@@ -2,3 +2,12 @@ venv310/
 __pycache__/
 *.pyc
 .env
+.ipynb_checkpoints
+venv310
+venv39
+WA_Fn-UseC_-HR-Employee-Attrition.csv
+Week 1_IBM Attrition Rate.ipynb
+Week 2_LangChain.ipynb
+interactive_chatbot.py
+prompt_template.py
+simple_api.py
