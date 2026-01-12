@@ -21,4 +21,20 @@ This project combines **FastAPI**, **LangChain**, and **Ollama LLM** to create a
 - Install dependencies:  
 ```bash
 pip install fastapi uvicorn langchain-ollama
-
+```
+- Run locally:  
+```bash
+python3 qa_app.py
+```
+- Test the API
+```bash
+  curl "http://localhost:8000/ask?question=What+is+AI?&session_id=test123"
+```
+- Sample JSON response
+```JSON
+  {
+  "question": "What is AI?",
+  "answer": "Artificial Intelligence is ...",
+  "session_id": "test123"
+  }
+```
